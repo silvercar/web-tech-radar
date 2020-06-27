@@ -238,7 +238,7 @@ body {
         &.blip-text {
           font-size: 9px;
           font-style: italic;
-          fill: $white;
+          fill: $black;
         }
 
         &.line-text {
@@ -260,6 +260,8 @@ body {
       max-width: 0;
       position: absolute;
       overflow: hidden;
+
+      z-index: 1;
 
       transition: max-height 0.5s ease 1s;
 
